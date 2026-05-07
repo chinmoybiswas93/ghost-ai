@@ -5,24 +5,17 @@ change.
 
 ## Current Phase
 
-- Complete
+- Feature 02: Editor Chrome - Complete
 
 ## Current Goal
 
-- Design system with shadcn/ui components and UI primitives
+- Feature 3 (TBD)
 
 ## Completed
 
-- Installed and configured shadcn/ui with Radix + Nova preset
-- Added Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea components
-- Installed lucide-react for icons
-- Created lib/utils.ts with cn() helper for merging Tailwind classes
-- Updated app/globals.css with custom dark theme colors matching Ghost AI design system
-- Configured Geist Sans and Geist Mono fonts
-- All components import without errors
-- cn() works properly
-- Dark-only theme applied (no light mode styling)
-- Project builds successfully
+- Feature 01: Design System — shadcn/ui installed and configured for Tailwind v4, dark-only theme tokens in globals.css, Button/Card/Dialog/Input/Tabs/Textarea/ScrollArea components added to components/ui/, lucide-react installed, lib/utils.ts cn() helper in place. TypeScript compiles clean.
+
+- Feature 02: Editor Chrome — EditorNavbar (fixed top bar with PanelLeftOpen/PanelLeftClose toggle) and ProjectSidebar (fixed overlay, slides from left, Projects title + close button, My Projects/Shared tabs with empty states, New Project button) added to components/editor/. Dialog pattern confirmed ready via existing components/ui/dialog.tsx. TypeScript and ESLint clean.
 
 ## In Progress
 
@@ -30,7 +23,7 @@ change.
 
 ## Next Up
 
-- [First unit to build]
+- [Next feature spec]
 
 ## Open Questions
 
